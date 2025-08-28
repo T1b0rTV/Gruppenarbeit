@@ -1,11 +1,145 @@
 /* Minimal styling for Gruppenaufgabe pages */
-body { font-family: Arial, Helvetica, sans-serif; margin: 20px; color:#222 }
-header h1 { margin:0 0 8px 0 }
-nav a { margin-right:8px }
-main { margin-top:12px }
-form { margin-bottom:16px }
-label { display:block; margin:6px 0 }
-table { border-collapse: collapse; width:100%; max-width:100% }
-table th, table td { border:1px solid #ccc; padding:6px; text-align:left }
-.error { color: #8a0000; background:#fdd; padding:8px }
-.success { color:#0a6000; background:#dfd; padding:8px }
+
+body {
+	font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+	margin: 0;
+	background: #f4f7fa;
+	color: #222;
+}
+header {
+	background: linear-gradient(90deg, #3a7bd5 0%, #00d2ff 100%);
+	color: #fff;
+	padding: 24px 0 12px 0;
+	box-shadow: 0 2px 8px #0001;
+	margin-bottom: 24px;
+}
+header h1 {
+	margin: 0 0 8px 0;
+	font-size: 2.2rem;
+	letter-spacing: 1px;
+}
+nav {
+	margin-top: 8px;
+}
+nav a {
+	margin-right: 16px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	transition: color 0.2s;
+}
+nav a:hover {
+	color: #ffe082;
+}
+main {
+	margin: 0 auto;
+	margin-top: 0;
+	max-width: 700px;
+	background: #fff;
+	border-radius: 12px;
+	box-shadow: 0 2px 16px #0002;
+	padding: 32px 24px 24px 24px;
+}
+form {
+	margin-bottom: 24px;
+	background: #f7fbff;
+	padding: 18px 16px 10px 16px;
+	border-radius: 8px;
+	box-shadow: 0 1px 4px #0001;
+}
+label {
+	display: block;
+	margin: 10px 0 6px 0;
+	font-weight: 500;
+}
+input[type="text"], input[type="password"], input[type="number"], input[type="search"] {
+	width: 100%;
+	padding: 8px 10px;
+	border: 1px solid #b0c4de;
+	border-radius: 5px;
+	margin-bottom: 12px;
+	font-size: 1rem;
+	background: #fafdff;
+	transition: border 0.2s;
+}
+input:focus {
+	border-color: #3a7bd5;
+	outline: none;
+}
+button {
+	background: linear-gradient(90deg, #3a7bd5 0%, #00d2ff 100%);
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 8px 18px;
+	font-size: 1rem;
+	font-weight: 500;
+	margin-right: 8px;
+	margin-top: 4px;
+	cursor: pointer;
+	box-shadow: 0 1px 4px #0001;
+	transition: background 0.2s, box-shadow 0.2s;
+}
+button:hover {
+	background: linear-gradient(90deg, #00d2ff 0%, #3a7bd5 100%);
+	box-shadow: 0 2px 8px #0002;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+	max-width: 100%;
+	background: #fafdff;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 1px 6px #0001;
+	margin-top: 12px;
+}
+table th {
+	background: #3a7bd5;
+	color: #fff;
+	font-weight: 600;
+	padding: 10px 6px;
+	border: none;
+}
+table td {
+	border: none;
+	border-bottom: 1px solid #e3eaf2;
+	padding: 8px 6px;
+}
+table tr:last-child td {
+	border-bottom: none;
+}
+table tr:hover {
+	background: #e3f2fd;
+}
+.error {
+	color: #fff;
+	background: #e53935;
+	padding: 10px 14px;
+	border-radius: 6px;
+	margin-bottom: 12px;
+}
+.success {
+	color: #fff;
+	background: #43a047;
+	padding: 10px 14px;
+	border-radius: 6px;
+	margin-bottom: 12px;
+}
+section {
+	margin-bottom: 24px;
+}
+@media (max-width: 600px) {
+	main {
+		padding: 10px 2vw;
+	}
+	table, thead, tbody, th, td, tr {
+		display: block;
+		width: 100%;
+	}
+	table th, table td {
+		padding: 10px 4px;
+		text-align: left;
+	}
+	table tr { margin-bottom: 10px; }
+}
