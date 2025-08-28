@@ -1,0 +1,40 @@
+<?php
+header("Content-type: text/css");
+$mainColor = "#black";
+$fontSize = "30px";
+$font = "Comic-sans";
+$startColor = "#ff7e5f";  // Koralle
+$middleColor = "#feb47b"; // Orange
+$endColor = "#86a8e7";    // Hellblau
+?>
+
+body {
+font-family: Verdana, sans-serif;
+color: <?php echo $mainColor; ?>;
+font-size: <?php echo $fontSize; ?>;
+font-family: <?php echo $font; ?>;
+margin: 20px;
+}
+
+.gradient-box {
+width: 750px;
+height: 550px;
+/* Diagonal von links oben nach rechts unten */
+background: linear-gradient(to bottom right, <?php echo $startColor; ?>, <?php echo $middleColor; ?>, <?php echo $endColor; ?>);
+border-radius: 10px;
+margin: 20px;
+}
+
+.gradient-box2 {
+width: 245px;
+height: 45px;
+/* Diagonal von links oben nach rechts unten */
+background: linear-gradient(to bottom right, <?php echo $startColor; ?>, <?php echo $middleColor; ?>, <?php echo $endColor; ?>);
+border-radius: 5px;
+margin: 10px;
+padding: 5px;
+}
+
+h1 {
+color: <?php echo $mainColor; ?>;
+}

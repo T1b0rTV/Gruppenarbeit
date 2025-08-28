@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Fragebogen</title><link rel="stylesheet" href="style.php">
+</head>
+<body>
+<div class="gradient-box">
+<form action="ausgabe.php" method="post">
+    <fieldset>
+        <legend>Angabe zur Person</legend>
+        <label for="vorname">Vorname:</label>
+        <input type="text" name="vorname" id="vorname"><br>
+        <label for="nachname">Nachname:</label>
+        <input type="text" name="nachname" id="nachname"><br>
+        <label for="email">E-Mail:</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="passwort">Passwort:</label>
+        <input type="password" name="passwort" id="passwort">
+    </fieldset>
+
+    <fieldset>
+        <legend>Fragebogen</legend>
+        <label for="browser">Welchen Browser nutzen Sie?</label>
+        <select name="browser" id="browser">
+            <option>Google Chrome</option>
+            <option>Firefox</option>
+            <option>Edge</option>
+            <option>Safari</option>
+        </select><br><br>
+
+        Gefällt Ihnen unsere Website?<br>
+        <input type="radio" name="gefaellt" value="ja"> Ja
+        <input type="radio" name="gefaellt" value="nein"> Nein<br><br>
+
+        <label for="verbesserung">Haben Sie Verbesserungsvorschläge?</label><br>
+        <textarea name="verbesserung" id="verbesserung"></textarea><br>
+
+        <input type="checkbox" name="newsletter"> Newsletter anmelden?
+    </fieldset>
+
+    <div class="gradient-box2">
+        <input type="submit" value="Formular abschicken">
+        <input type="reset" value="Zurücksetzen">
+    </div>
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="hg" x1="0" x2="1">
+      <stop offset="0" stop-color="#eef2ff"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="url(#hg)" rx="12"/>
+  <g transform="translate(40,30)" fill="#0b5cff">
+    <rect x="0" y="0" width="220" height="140" rx="8" fill="#fff" stroke="#e6e9ef"/>
+    <g transform="translate(16,16)" fill="#0b5cff">
+      <circle cx="24" cy="24" r="24" fill="#0b5cff" opacity="0.08"/>
+      <rect x="64" y="8" width="120" height="16" rx="6" fill="#0b5cff" opacity="0.12"/>
+      <rect x="64" y="34" width="90" height="12" rx="6" fill="#0b5cff" opacity="0.08"/>
+    </g>
+  </g>
+  <g transform="translate(300,20)" fill="#111827">
+    <text x="0" y="30" font-size="28" font-family="Segoe UI, Roboto">Finde Produkte schneller</text>
+    <text x="0" y="62" font-size="16" fill="#6b7280">Live-Suche, sichere Abfragen, schnelles Paging. Professionell präsentiert.</text>
+  </g>
+</svg>

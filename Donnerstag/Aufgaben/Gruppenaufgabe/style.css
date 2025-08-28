@@ -1,0 +1,11 @@
+/* Minimal styling for Gruppenaufgabe pages */
+body { font-family: Arial, Helvetica, sans-serif; margin: 20px; color:#222 }
+header h1 { margin:0 0 8px 0 }
+nav a { margin-right:8px }
+main { margin-top:12px }
+form { margin-bottom:16px }
+label { display:block; margin:6px 0 }
+table { border-collapse: collapse; width:100%; max-width:100% }
+table th, table td { border:1px solid #ccc; padding:6px; text-align:left }
+.error { color: #8a0000; background:#fdd; padding:8px }
+.success { color:#0a6000; background:#dfd; padding:8px }

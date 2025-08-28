@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Mein Eingabeformular</title>
+    <link rel="stylesheet" href="style.php">
+</head>
+<body>
+<div class="gradient-box">
+    <form action="formular_bearbeiten.php" method="get">
+        <fieldset>
+            <legend>Mein Eingabeformular</legend>
+            <label for="vorname">Vorname
+                <input type="text" name="vorname" id="vorname">
+            </label>
+            <br>
+            <label for="nachname">Nachname
+                <input type="text" name="nachname" id="nachname">
+            </label>
+            <br>
+            <label for="email">E-Mail
+                <input type="email" name="email" id="email">
+            </label>
+        </fieldset>
+        <button type="submit">Absenden</button>
+        <button type="reset">Zurücksetzen</button>
+    </form>
+</div>
+</body>
+</html>

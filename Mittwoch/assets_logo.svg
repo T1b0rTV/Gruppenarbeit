@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b5cff"/>
+      <stop offset="1" stop-color="#6b8cff"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="40" rx="6" fill="url(#g)" />
+  <text x="16" y="26" font-family="Segoe UI, Roboto, Arial" font-size="14" fill="#fff" font-weight="700">ProdSearch</text>
+  <circle cx="100" cy="20" r="8" fill="#fff" opacity="0.08"/>
+</svg>
